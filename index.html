@@ -31,74 +31,63 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-      <div class="row no-gutters">
-        <div class="col-md-4">
-          <div class="card-header">9am</div>
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-      </div>
-      <div class="card border-secondary bg-secondary" style="max-width: 100;">
-        <div class="card-header">10am</div>
-        <div class="card-body text-secondary">
-          <h5 class="card-title">Secondary card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-      <div class="card border-secondary bg-secondary" style="max-width: 100;">
-        <div class="card-header">11am</div>
-        <div class="card-body text-success">
-          <h5 class="card-title">Success card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-      <div class="card border-secondary bg-secondary" style="max-width: 100;">
-        <div class="card-header">12pm</div>
-        <div class="card-body text-danger">
-          <h5 class="card-title">Danger card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-      <div class="card border-secondary bg-secondary" style="max-width: 100;">
-        <div class="card-header">1pm</div>
-        <div class="card-body text-warning">
-          <h5 class="card-title">Warning card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-      <div class="card border-secondary bg-secondary" style="max-width: 100;">
-        <div class="card-header">2pm</div>
-        <div class="card-body text-info">
-          <h5 class="card-title">Info card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-      <div class="card border-secondary bg-secondary" style="max-width: 100;">
-        <div class="card-header">3pm</div>
-        <div class="card-body">
-          <h5 class="card-title">Light card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-      <div class="card border-secondary bg-secondary" style="max-width: 100;">
-        <div class="card-header">4pm</div>
-        <div class="card-body text-dark">
-          <h5 class="card-title">Dark card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-      <div class="card border-secondary bg-secondary" style="max-width: 100;">
-        <div class="card-header">5pm</div>
-        <div class="card-body text-dark">
-          <h5 class="card-title">Dark card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
+      <table class="table table-bordered">
+        <!-- <thead>
+          <tr>
+            <th scope="col">Time</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead> -->
+        <tbody>
+          <tr>
+            <th id="row" class="d-flex justify-content-center align-items-center" scope="row">9am</th>
+            <td colspan="2"><textarea class="w-100"></textarea></td>
+            <td><button class="saveBtn"><i :hover>Save</i></button></td>
+          </tr>
+          <tr>
+            <th id="row" class="d-flex justify-content-center align-items-center" scope="row">10am</th>
+            <td colspan="2"><textarea class="w-100"></textarea></td>
+            <td><button class="saveBtn"><i :hover>Save</i></button></td>
+          </tr>
+          <tr>
+            <th id="row" class="d-flex justify-content-center align-items-center" scope="row">11am</th>
+            <td colspan="2"><textarea class="w-100"></textarea></td>
+            <td><button class="saveBtn"><i :hover>Save</i></button></td>
+          </tr>
+          <tr>
+            <th id="row" class="d-flex justify-content-center align-items-center" scope="row">12pm</th>
+            <td colspan="2"><textarea class="w-100"></textarea></td>
+            <td><button class="saveBtn"><i :hover>Save</i></button></td>
+          </tr>
+          <tr>
+            <th id="row" class="d-flex justify-content-center align-items-center" scope="row">1pm</th>
+            <td colspan="2"><textarea class="w-100"></textarea></td>
+            <td><button class="saveBtn"><i :hover>Save</i></button></td>
+          </tr>
+          <tr>
+            <th id="row" class="d-flex justify-content-center align-items-center" scope="row">2pm</th>
+            <td colspan="2"><textarea class="w-100"></textarea></td>
+            <td><button class="saveBtn"><i :hover>Save</i></button></td>
+          </tr>
+          <tr>
+            <th id="row" class="d-flex justify-content-center align-items-center" scope="row">3pm</th>
+            <td colspan="2"><textarea class="w-100"></textarea></td>
+            <td><button class="saveBtn"><i :hover>Save</i></button></td>
+          </tr>
+          <tr>
+            <th id="row" class="d-flex justify-content-center align-items-center" scope="row">4pm</th>
+            <td colspan="2"><textarea class="w-100"></textarea></td>
+            <td><button class="saveBtn"><i :hover>Save</i></button></td>
+          </tr>
+          <tr>
+            <th id="row" class="d-flex justify-content-center align-items-center" scope="row">5pm</th>
+            <td colspan="2"><textarea class="w-100"></textarea></td>
+            <td><button class="saveBtn"><i :hover>Save</i>  </button></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
