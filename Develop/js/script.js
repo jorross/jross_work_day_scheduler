@@ -1,9 +1,13 @@
 var tableEl = $("#table_body");
 var clearEl = $('#clear_div');
+var currentDayEl = $('#currentDay')
 
 var now = moment();
 var today = moment().format('YYYY-MM-DD');
 // var now = moment(today + ', 12:00:00 pm');
+
+currentDayEl.html(moment().format('MMMM Do YYYY'));
+
 function setColors() {
     var nine = moment(today + 'T09:00:00')
     var ten = moment(today + 'T10:00:00')
