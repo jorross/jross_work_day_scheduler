@@ -31,63 +31,66 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-      <table class="table table-bordered">
+      <table class="table table">
         <!-- <thead>
           <tr>
             <th scope="col">Time</th>
-            <th scope="col">First</th>
+            <th scope="col">First</th>-borderless
             <th scope="col">Last</th>
             <th scope="col">Handle</th>
           </tr>
         </thead> -->
-        <tbody>
+        <tbody id="table_body">
           <tr>
-            <th id="row" class="d-flex justify-content-center align-items-center" scope="row">9am</th>
-            <td colspan="2"><textarea class="w-100"></textarea></td>
-            <td><button class="saveBtn"><i :hover>Save</i></button></td>
+            <th id="row" class="border-right d-flex justify-content-center align-items-center" scope="row">9am</th>
+            <td colspan="2"><textarea class="w-100" id="9am"></textarea></td>
+            <td><button class="saveBtn" id="9"><i :hover>Save</i></button></td>
           </tr>
           <tr>
-            <th id="row" class="d-flex justify-content-center align-items-center" scope="row">10am</th>
-            <td colspan="2"><textarea class="w-100"></textarea></td>
-            <td><button class="saveBtn"><i :hover>Save</i></button></td>
+            <th id="row" class="border-right d-flex justify-content-center align-items-center" scope="row">10am</th>
+            <td colspan="2"><textarea class="w-100" id="10am"></textarea></td>
+            <td><button class="saveBtn" id="10"><i :hover>Save</i></button></td>
           </tr>
           <tr>
-            <th id="row" class="d-flex justify-content-center align-items-center" scope="row">11am</th>
-            <td colspan="2"><textarea class="w-100"></textarea></td>
-            <td><button class="saveBtn"><i :hover>Save</i></button></td>
+            <th id="row" class="border-right d-flex justify-content-center align-items-center" scope="row">11am</th>
+            <td colspan="2"><textarea class="w-100" id="11am"></textarea></td>
+            <td><button class="saveBtn" id="11"><i :hover>Save</i></button></td>
           </tr>
           <tr>
-            <th id="row" class="d-flex justify-content-center align-items-center" scope="row">12pm</th>
-            <td colspan="2"><textarea class="w-100"></textarea></td>
-            <td><button class="saveBtn"><i :hover>Save</i></button></td>
+            <th id="row" class="border-right d-flex justify-content-center align-items-center" scope="row">12pm</th>
+            <td colspan="2"><textarea class="w-100" id="12pm"></textarea></td>
+            <td><button class="saveBtn" id="12"><i :hover>Save</i></button></td>
           </tr>
           <tr>
-            <th id="row" class="d-flex justify-content-center align-items-center" scope="row">1pm</th>
-            <td colspan="2"><textarea class="w-100"></textarea></td>
-            <td><button class="saveBtn"><i :hover>Save</i></button></td>
+            <th id="row" class="border-right d-flex justify-content-center align-items-center" scope="row">1pm</th>
+            <td colspan="2"><textarea class="w-100" id="1pm"></textarea></td>
+            <td><button class="saveBtn" id="1"><i :hover>Save</i></button></td>
           </tr>
           <tr>
-            <th id="row" class="d-flex justify-content-center align-items-center" scope="row">2pm</th>
-            <td colspan="2"><textarea class="w-100"></textarea></td>
-            <td><button class="saveBtn"><i :hover>Save</i></button></td>
+            <th id="row" class="border-right d-flex justify-content-center align-items-center" scope="row">2pm</th>
+            <td colspan="2"><textarea class="w-100" id="2pm"></textarea></td>
+            <td><button class="saveBtn" id="2"><i :hover>Save</i></button></td>
           </tr>
           <tr>
-            <th id="row" class="d-flex justify-content-center align-items-center" scope="row">3pm</th>
-            <td colspan="2"><textarea class="w-100"></textarea></td>
-            <td><button class="saveBtn"><i :hover>Save</i></button></td>
+            <th id="row" class="border-right d-flex justify-content-center align-items-center" scope="row">3pm</th>
+            <td colspan="2"><textarea class="w-100" id="3pm"></textarea></td>
+            <td><button class="saveBtn" id="3"><i :hover>Save</i></button></td>
           </tr>
           <tr>
-            <th id="row" class="d-flex justify-content-center align-items-center" scope="row">4pm</th>
-            <td colspan="2"><textarea class="w-100"></textarea></td>
-            <td><button class="saveBtn"><i :hover>Save</i></button></td>
+            <th id="row" class="border-right d-flex justify-content-center align-items-center" scope="row">4pm</th>
+            <td colspan="2"><textarea class="w-100" id="4pm"></textarea></td>
+            <td><button class="saveBtn" id="4"><i :hover>Save</i></button></td>
           </tr>
           <tr>
-            <th id="row" class="d-flex justify-content-center align-items-center" scope="row">5pm</th>
-            <td colspan="2"><textarea class="w-100"></textarea></td>
-            <td><button class="saveBtn"><i :hover>Save</i>  </button></td>
+            <th id="row" class="border-right d-flex justify-content-center align-items-center" scope="row">5pm</th>
+            <td colspan="2"><textarea class="w-100" id="5pm"></textarea></td>
+            <td><button class="saveBtn" id="5"><i :hover>Save</i>  </button></td>
           </tr>
         </tbody>
       </table>
+    </div>
+    <div id="clear_div" class="d-flex justify-content-center">
+      <button class="btn btn-danger">Clear Planner</button>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
